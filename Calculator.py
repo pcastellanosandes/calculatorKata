@@ -5,4 +5,4 @@ class Calculator:
         if numbers == "":
             return 0
         else:
-            return 1
+            return int(numbers)
