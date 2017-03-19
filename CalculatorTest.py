@@ -11,3 +11,7 @@ class CalculatorTest(TestCase):
 
     def test_addOneNumber(self):
         self.assertEqual(Calculator().add("1"), 1, "One number")
+
+    def test_addOneNumber2(self):
+        self.assertEqual(Calculator().add("1"), 1, "One number")
+        self.assertEqual(Calculator().add("2"), 2, "One number")
