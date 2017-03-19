@@ -1,5 +1,8 @@
 from unittest import TestCase
-import  Calculator
+
+from Calculator import Calculator
+
+__autor__ = 'Paula Castellanos'
 
 
 class CalculatorTest(TestCase):

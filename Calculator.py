@@ -1,5 +1,5 @@
 __autor__= 'Paula Castellanos'
 
-class Caculator:
-    def add(stringNumbers):
-        pass
+class Calculator:
+    def add(self, numbers):
+        return 0
