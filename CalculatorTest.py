@@ -21,3 +21,6 @@ class CalculatorTest(TestCase):
 
     def test_addMultipleNumbers(self):
         self.assertEqual(Calculator().add("5,2,4,1"), 12, "Multiple numbers")
+
+    def test_multipleSeparator(self):
+        self.assertEqual(Calculator().add("5,2&4:1:2&8"), 22, "Multiple separators")
