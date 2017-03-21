@@ -1,10 +1,15 @@
 __autor__= 'Paula Castellanos'
 
 class Calculator:
-    def add(self, numbers):
-        if numbers == "":
+    def add(self, stringNumbers):
+        if stringNumbers == "":
             return 0
-        elif ',' in numbers:
-            return int(numbers[0]) + int(numbers[2])
+        elif "," in stringNumbers:
+            numbers = stringNumbers.split(",")
+            result = 0
+            for number in numbers:
+                result = result + int(number)
+
+            return result
         else:
-            return int(numbers)
+            return int(stringNumbers)
